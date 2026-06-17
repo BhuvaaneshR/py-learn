@@ -76,3 +76,20 @@ text1 = "Hello World     "
 text1 = text1.lstrip()
 print (text1)
 """
+
+
+
+#.splitlines() method - splits a string into a list of lines. It splits at line breaks and returns a list of lines in the string.
+"""
+text1 = "Hello\n World\r Python"
+text1 = text1.splitlines()
+print (text1)
+"""
+
+
+
+#.join() method - joins the elements of an iterable (e.g., list, tuple) into a single string, using a specified separator.
+"""
+word = ["hello", "hi", "hello"]
+print(f" ".join(word))
+"""
