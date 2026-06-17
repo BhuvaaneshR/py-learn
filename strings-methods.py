@@ -40,3 +40,39 @@ text1 = "HelloWorld"
 text1 = text1.lower()
 print (text1)
 """
+
+
+
+#.casefold() method - converts all characters to lowercase and is more aggressive than lower() method. It is used for caseless matching.
+"""
+text1 = "HelloWorld"
+text1 = text1.casefold()
+print (text1)
+"""
+
+
+
+#.swapcase() method - converts uppercase characters to lowercase and lowercase characters to uppercase.
+"""
+text1 = "HelloWorld"
+text1 = text1.swapcase()
+print (text1)
+"""
+
+
+
+#.lstrip() method - removes whitespace from the left side of a string.
+"""
+text1 = "     Hello World"
+text1 = text1.lstrip()
+print (text1)
+"""
+
+
+
+#.rstrip() method - removes whitespace from the right side of a string.
+"""
+text1 = "Hello World     "
+text1 = text1.lstrip()
+print (text1)
+"""
