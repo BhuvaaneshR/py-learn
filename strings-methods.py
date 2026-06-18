@@ -236,3 +236,10 @@ print(text1.isupper())
 text1= "Hello World"
 print(text1.istitle())
 """
+
+
+
+#
+
+text1 = user@gmail.com"
+text1.partition(@)
