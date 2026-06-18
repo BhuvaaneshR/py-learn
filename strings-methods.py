@@ -97,9 +97,10 @@ print(f" ".join(word))
 
 
 #.find() method - returns the index of the first occurrence of a substring in a string. If the substring is not found, it returns -1.
-
+"""
 text1 = "The quick brown fox jumps over the lazy dog"
 print(text1.find("fox"))
+"""
 
 
 
@@ -108,4 +109,36 @@ print(text1.find("fox"))
 """
 text1 = "The quick brown fox jumps over the lazy dog"
 print(text1.rfind("brown"))
+"""
+
+
+
+#.index() method - returns the index of the first occurrence of a substring in a string. If the substring is not found, it raises a ValueError.
+"""
+text1 = "The quick brown fox jumps over the lazy dog"
+print(text1.index("cat"))
+"""
+
+
+
+#.count() method - returns the number of occurrences of a substring in a string (case-sensitive).
+"""
+text1 = "Hello Python"
+print(text1.lower().count("h"))
+"""
+
+
+
+#startswith() method - checks if a string starts with a specified prefix. It returns True if the string starts with the prefix, and False otherwise (case-sensitive).
+"""
+text1 = "Hello Python"
+print(text1.startswith("He"))
+"""
+
+
+
+#endswith() method - checks if a string ends with a specified suffix. It returns True if the string ends with the suffix, and False otherwise (case-sensitive).
+"""
+text1 = "Hello Python"
+print(text1.endswith("on"))
 """
