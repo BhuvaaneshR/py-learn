@@ -239,7 +239,26 @@ print(text1.istitle())
 
 
 
-#
+#.partition() and .rpartition() - partition() and rpartition() are string methods used to split a string into exactly three parts based on a specific separator. Both methods always return a tuple containing three elements.
+"""
+url_path = "users/profile/settings/avatar.jpg"
+# Code - .partition()
+before, sep, after = url_path.partition("/")
+print("Before:", before)
+print("Sep   :", sep)
+print("After :", after)
 
-text1 = user@gmail.com"
-text1.partition(@)
+# Code - .rpartition()
+before, sep, after = url_path.rpartition("/")
+print("Before:", before)
+print("Sep   :", sep)
+print("After :", after)
+"""
+
+
+
+#encode() - returns a bytes object representing the string encoded in the specified encoding (default is 'utf-8').
+"""
+text1 = "hello world"
+print(text1.encode("utf-8"))
+"""
