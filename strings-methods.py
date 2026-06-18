@@ -266,5 +266,41 @@ print(text1.encode("utf-8"))
 
 
 #format() - is a string method that allows you to insert values into a string template.
+"""
 text = "Hello, my name is {} and I am {} years old.".format("Alice", 30)
 print(text)
+"""
+
+
+
+#.format_map() - is a string method that allows you to insert values into a string template using a mapping (e.g., dictionary) instead of positional arguments.
+"""data = {
+    "name":"Alice",
+    "age":30
+}
+print("{name} is {age}".format_map(data))
+"""
+
+
+
+#.removeprefix() - returns a new string with the specified prefix removed if it starts with that prefix. If the string does not start with the prefix, it returns the original string unchanged.
+"""
+url = "https://google.com"
+print(url.removeprefix("https://"))
+"""
+
+
+
+#.removesuffix() - returns a new string with the specified suffix removed if it ends with that suffix. If the string does not end with the suffix, it returns the original string unchanged.
+"""
+url = "https://google.com"
+print(url.removesuffix(".com"))
+"""
+
+
+
+#.expandtabs() - returns a new string where all tab characters ('\t') are replaced with spaces. The number of spaces used to replace each tab character can be specified as an argument (default is 8).
+"""
+text1 = "A\tB\tC"
+print(text1.expandtabs(4))
+"""
