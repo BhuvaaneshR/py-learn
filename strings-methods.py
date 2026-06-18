@@ -174,3 +174,65 @@ print(text1.rjust(20,"$"))
 text1 = "Welcome"
 print(text1.zfill(1000))
 """
+
+
+
+#.isalpha() method - checks if all characters in a string are alphabetic (letters). It returns True if all characters are alphabetic and there is at least one character, otherwise it returns False (space-sensitive).
+"""
+text1= "Hello World"
+print(text1.isalpha())
+"""
+
+
+
+#.isnumeric() - checks if all characters in a string are numeric (digits). It returns True if all characters are numeric and there is at least one character, otherwise it returns False (space-sensitive).
+"""
+text1= "½"
+print(text1.isnumeric())
+"""
+
+
+
+#.isdigit() - checks if all characters in a string are digits. It returns True if all characters are digits and there is at least one character, otherwise it returns False (space-sensitive).
+"""
+text1= "½"
+print(text1.isdigit())
+"""
+
+
+
+#.isalnum() - checks if all characters in a string are alphanumeric (letters and digits). It returns True if all characters are alphanumeric and there is at least one character, otherwise it returns False (space-sensitive).
+"""
+text1= "HelloWorld1234"
+print(text1.isalnum())
+"""
+
+
+
+#isspace() - checks if all characters in a string are whitespace characters (spaces, tabs, newlines, etc.). It returns True if all characters are whitespace and there is at least one character, otherwise it returns False.
+"""
+text1= "         "
+print(text1.isspace())
+"""
+
+
+
+#.islower() - checks if all characters in a string are lowercase letters. It returns True if all characters are lowercase and there is at least one character, otherwise it returns False (space-sensitive).
+"""
+text1= "Hello World"
+print(text1.islower())
+"""
+
+
+#.isupper() - checks if all characters in a string are uppercase letters. It returns True if all characters are uppercase and there is at least one character, otherwise it returns False (space-sensitive).
+"""
+text1= "Hello World"
+print(text1.isupper())
+"""
+
+
+#.istitle() - checks if a string is in title case (the first character of each word is uppercase and the rest are lowercase). It returns True if the string is in title case and there is at least one character, otherwise it returns False.
+"""
+text1= "Hello World"
+print(text1.istitle())
+"""
