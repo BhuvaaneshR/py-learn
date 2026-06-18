@@ -262,3 +262,9 @@ print("After :", after)
 text1 = "hello world"
 print(text1.encode("utf-8"))
 """
+
+
+
+#format() - is a string method that allows you to insert values into a string template.
+text = "Hello, my name is {} and I am {} years old.".format("Alice", 30)
+print(text)
