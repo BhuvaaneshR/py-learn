@@ -142,3 +142,35 @@ print(text1.startswith("He"))
 text1 = "Hello Python"
 print(text1.endswith("on"))
 """
+
+
+
+#center() - returns a new string that is centered within a specified width. It pads the string with a specified character (default is space) on both sides to achieve the desired width.
+"""
+text1 = "Welcome"
+print(text1.center(20,"$"))
+"""
+
+
+
+#ljust() - returns a new string that is left-justified within a specified width. It pads the string with a specified character (default is space) on the right side to achieve the desired width.
+"""
+text1 = "Welcome"
+print(text1.ljust(20,"$"))
+"""
+
+
+
+#rjust() - returns a new string that is right-justified within a specified width. It pads the string with a specified character (default is space) on the left side to achieve the desired width.
+"""
+text1 = "Welcome"
+print(text1.rjust(20,"$"))
+"""
+
+
+
+#zfill() - returns a new string that is zero-padded on the left side to achieve a specified width.
+"""
+text1 = "Welcome"
+print(text1.zfill(1000))
+"""
