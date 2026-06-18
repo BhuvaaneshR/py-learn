@@ -93,3 +93,19 @@ print (text1)
 word = ["hello", "hi", "hello"]
 print(f" ".join(word))
 """
+
+
+
+#.find() method - returns the index of the first occurrence of a substring in a string. If the substring is not found, it returns -1.
+
+text1 = "The quick brown fox jumps over the lazy dog"
+print(text1.find("fox"))
+
+
+
+
+#.rfind() method - returns the index of the last occurrence of a substring in a string. If the substring is not found, it returns -1.
+"""
+text1 = "The quick brown fox jumps over the lazy dog"
+print(text1.rfind("brown"))
+"""
