@@ -25,6 +25,15 @@ print (text1)
 
 
 
+#.split() - splits a string into a list of substrings based on a specified delimiter (default is whitespace).
+"""
+text1 = input("Enter Time: ")
+text2 = text1.split(":")
+print(text2)
+"""
+
+
+
 #.upper() method - converts all characters to uppercase.
 """
 text1 = "HelloWorld"
